@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Institución Educativa</title>
+  <link rel="stylesheet" href="css/estilos.css" />
+</head>
+<body>
+
+  <div class="container">
+    <!-- Menú lateral izquierdo -->
+    <nav class="sidebar">
+      <a href="#carreras">Carreras</a>
+      <a href="#becas">Becas</a>
+      <a href="#inscripciones">Inscripciones</a>
+      <a href="#modalidades">Modalidades</a>
+      <a href="#titulacion">Tipos de titulación</a>
+    </nav>
+
+    <!-- Contenido principal -->
+    <div class="content">
+      <!-- Logo a la derecha -->
+      <div class="logo">
+        <img src="img/logouia.jpg" alt="Logo de la institución" />
+      </div>
+
+      <!-- Carrusel de imágenes -->
+      <div class="carousel" id="carousel">
+        <img src="img/img1.jpg" alt="Imagen 1" />
+        <img src="img/img2.jpg" alt="Imagen 2" />
+        <img src="img/img3.jpg" alt="Imagen 3" />
+      </div>
+    </div>
+  </div>
+
+  <!-- Pie de página -->
+  <footer>
+    <div class="social-links">
+      <a href="https://www.facebook.com/share/19jrqSxgWX/" target="_blank">Facebook</a>
+      <a href="https://www.instagram.com/uistmoamericanaoficial?igsh=bHZwdmt0dmZneHlt" target="_blank">Instagram</a>
+      <a href="https://wa.me/message/NN5QXJOBJANDI1" target="_blank">WhatsApp</a>
+    </div>
+
+    <div class="contact-form">
+      <h4>Contáctanos</h4>
+      <form onsubmit="handleFormSubmit(event)">
+        <input type="text" placeholder="Nombre" required />
+        <input type="email" placeholder="Correo electrónico" required />
+        <textarea placeholder="Mensaje" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
