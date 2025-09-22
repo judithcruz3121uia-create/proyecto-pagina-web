@@ -1,9 +1,15 @@
 body {
   margin: 0;
-  font-family: 'Times New Roman', Times, sans-serif;
+  font-family: 'arial black', Times, sans-serif;
   display: flex;
   flex-direction: column;
   height: 100vh;
+}
+header {
+  background: linear-gradient(135deg, #bdc01b,#4A148C);
+  padding: 20px;
+  text-align: center;
+  color: rgba(239, 255, 91, 0.884);
 }
 
 /* Layout principal */
